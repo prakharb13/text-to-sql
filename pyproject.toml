@@ -1,0 +1,20 @@
+[project]
+name = "fireworks-text-to-sql-takehome"
+version = "0.1.0"
+description = "FireworksAI Text-to-SQL Take-Home Assessment"
+requires-python = ">=3.11"
+dependencies = [
+    "openai",
+    "ipython",
+    "pandas",
+    "python-dotenv",
+    "pyyaml",
+    "openpyxl"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["utils"]

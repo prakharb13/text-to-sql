@@ -1,0 +1,11 @@
+# model names
+model:
+  model_openai: "accounts/fireworks/models/gpt-oss-120b"
+  model_deepseek: "accounts/fireworks/models/deepseek-v3p1-terminus"
+
+# model parameters
+max_tokens: 4096
+temperature: 0.6
+top_p: 1
+presence_penalty: 0
+frequency_penalty: 0
