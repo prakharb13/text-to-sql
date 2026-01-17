@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Setting up FireworksAI Text-to-SQL Take-Home Assessment..."
+echo "Setting up Text-to-SQL..."
 echo ""
 
 # Check if uv is installed
@@ -41,6 +41,6 @@ echo "Setup complete! 🎉"
 echo ""
 echo "To get started:"
 echo "  1. Activate the virtual environment: source .venv/bin/activate"
-echo "  2. Set your FIREWORKS_API_KEY environment variable"
+echo "  2. Set your API_KEY environment variable"
 echo "  3. Run your solution code"
 echo ""
