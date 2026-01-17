@@ -1,7 +1,7 @@
 [project]
-name = "fireworks-text-to-sql-takehome"
+name = "text-to-sql"
 version = "0.1.0"
-description = "FireworksAI Text-to-SQL Take-Home Assessment"
+description = "Text-to-SQL"
 requires-python = ">=3.11"
 dependencies = [
     "openai",
